@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+}
+
+/*
+    CSS TRANSFORM PROPERTIES
+    CSS TARNSITION PROPERTIES
+    CSS FILTER PROPERTIES
+*/
+
+/* css 2D transform */
+
+/* .translate{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 200px;
+    transform: translate(100px);
+    transform: scale(2);
+}
+
+.translate:hover{
+    transform: rotateZ(-360deg);
+    transform: skew(45deg , 90deg);
+    transition: 2s;
+} */
+
+
+
+/* css 3D transform */
+
+/* .cover{
+    border: 2px solid red;
+    height: 400px;
+    width: 400px;
+    margin:200px 300px;
+}
+
+.cover:hover .content{
+    transform: perspective(600px) rotate3d(240 ,240
+    , 240 , 241deg);
+    transition: 8s;
+}
+.content{
+    height: 400px;
+    width: 400px;
+    background-color: green;
+} */
+
+
+/* css transition */
+
+/* .div-5{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+.div-5:hover{
+    transform: translate(900px);
+    transition-duration: 4s;
+    transition-timing-function: ease-in-out;
+} */
+
+
+/*********************************************/
+
+
+/* css filter */
+
+.filter-img{
+    /* filter: blur(10px); */
+    /* filter:brightness(200%); */
+    /* filter:contrast(20%); */
+    /* filter:grayscale(); */
+    /* filter:hue-rotate(360deg); */
+    /* filter:invert(); */
+    /* filter:opacity(); */
+    /* filter:saturate(1000%); */
+    /* filter:sepia(50%); */
+    filter: drop-shadow(10px 20px 1px red);
+}
+
+.filter{
+    /* filter: blur(10px); */
+    /* filter:brightness(300%) */
+    /* filter:contrast(40%) */
+    /* filter:grayscale(100%); */
+    /* filter:hue-rotate(240deg); */
+    /* filter:invert(100%); */
+    /* filter:opacity(0.2); */
+    /* filter:saturate(50%); */
+    /* filter:sepia(100%); */
+    filter: drop-shadow(-50px 10px 10px gray)
+}
+
+
+
+
+
+
+
+
