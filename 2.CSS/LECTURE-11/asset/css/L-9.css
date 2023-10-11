@@ -5,52 +5,39 @@ body{
   margin: 0;
 }
 
-
 /************ css overlay ***********/
 
+
+.divs{
+height: 1000px;
+}
+
 .maindiv{
-  height: 500px;
-  width: 500px;
-  overflow: hidden;
   position: relative;
 }
 
-img{
-  object-fit: cover;
-  object-position:right;
-  position: absolute;
-}
-
 .overlay{
+  height: 1000px;
+  width:1920px;
+  background-color: black;
   position: absolute;
-  height: 100%;
-  width: 100%;
-  background-color:  rgba(233, 233, 233, 0.5);
-  z-index: 10;
-}
-
-.overlay:hover{
-  background-color:rgba(255, 0, 0, 0.371);
+  inset:0;
+  opacity: 0.5;
+  z-index: 1;
 }
 
 
 /******* css value and units *******/
 
-.para{
-  font-size: 200%;
-}
 
-p{
-  font-size: 48px;
-}
+
    
 /**** css background blend mode  ****/
 
-.back{
+.blend-mode{
+  background-image:url('../image/image-1.jpg') , url('../image/pexels-michael.jpg');
   height: 100vh;
-  background-image:url("../image/pexels-luis-del-río-15286.jpg") , url("../image/earth.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
   background-blend-mode:soft-light;
 }
 
