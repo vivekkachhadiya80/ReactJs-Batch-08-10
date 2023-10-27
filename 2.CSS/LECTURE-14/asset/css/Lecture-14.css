@@ -11,14 +11,16 @@
 /**** Css Masking ****/
 
 /* .maskdiv{
-     -webkit-mask-image: url('../image/mask-image-1.png');
-     mask-image: url('../image/mask-image-1.png');
+     -webkit-mask-image: url('../image/mask-image-3.png');
+     mask-image: url('../image/mask-image-3.png');
+     -webkit-mask-repeat:no-repeat;
+     mask-repeat: no-repeat;
 } */
 
 /****  Css Tooltip ****/
 
-/* 
-.tooltip{
+
+/* .tooltip{
      height: 50px;
      width: 200px;
      background-color: blueviolet;
@@ -44,6 +46,7 @@ span{
      width: 140px;
      background-color: black;
      font-size: 15px;
+     transition: 5s;
 } */
 
 /**** Css Dropdown ****/
@@ -101,7 +104,7 @@ nav{
 
 /* Open */
 
-nav:hover .dropdown-item{
+.show:focus-within .dropdown-item{
      display: block;
 }
 
@@ -113,14 +116,14 @@ nav:hover .dropdown-item{
 
 /**** Css Aspect-Ratio ****/
 
-/* .aspect-ratios{
+.aspect-ratios{
      width: 200px;
      height: auto;
      display: inline-block;
 }
 
 .aspect-ratios div:nth-child(1){
-     width: 500px;
+     width: 200px;
      background-color: red;
-     aspect-ratio:2.35/1;
-} */
+     aspect-ratio:3/2;
+}
