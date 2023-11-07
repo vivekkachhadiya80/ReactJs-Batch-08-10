@@ -1,4 +1,4 @@
-:root{
+/* :root{
     --bs-blue: #0d6efd;
     --bs-indigo: #6610f2;
     --bs-purple: #6f42c1;
@@ -55,7 +55,7 @@
 .col-4{
     background-color: var(--bs-teal);
     border:1px solid  black;
-
+    height: 50px;
 }
 .col-5{
     background-color: var(--bs-red);
@@ -75,6 +75,7 @@
 .col-8{
     border:1px solid  black;
     background-color: var(--bs-primary);
+    height: 50px;
 }
 .col-9{
     border:1px solid  black;
@@ -101,5 +102,16 @@
     border:1px solid black;
 }
 .row{
-    height: 400px;
+    height: 100px;
 }
+
+.col-sm{
+    border:1px solid black;
+}
+.col-md-3{
+    border:1px solid black;
+}
+.column-demo{
+    background-color: red;
+    height: 50px;
+} */

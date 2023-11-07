@@ -4,12 +4,17 @@
 <head>
     <title>HTML</title>
     <style>
-        /* input{
-            border:none;
+        table, th ,td{
+            border:1px solid red;
+            border-collapse: collapse;
+            text-align: center;
         }
-        input:focus{
-            outline: 5px solid red;
-        } */
+        table{
+            background-color: green;
+        }
+        table:hover{
+            background-color: blue;
+        }
     </style>
 </head>
 
@@ -22,13 +27,13 @@
     -->
 
 
-    <!-- Html Comment-->
+    <!----- Html Comment-->
 
 
 
     <!--html formatting tag / inline tag-->
 
-    <b>this is bold text.</b><br>
+    <!-- <b>this is bold text.</b><br>
     <strong>this is strong text.</strong><br>
     <i>this is italic text.</i><br>
     <em>this is emphesize text.</em><br>
@@ -38,17 +43,23 @@
     <del>this is deleted text.</del><br>
     <ins>this is added text.</ins><br>
     <s>this is s tag</s><br>
-    <code>section</code><br>
+    <code>section</code><br> -->
     <!-- superscript text-->
-    (10)<sup>2</sup><br>
+    <!-- (10)<sup>2</sup><br> -->
     <!-- subscript text-->
-    H<sub>2</sub>SO<sub>4</sub><br>
+    <!-- H<sub>2</sub>SO<sub>4</sub><br> -->
 
     <!-- html input types / inline input types  / (FORM FILLING) -->
 
-    <input type="button"><br>
+    <!-- <input type="button"><br>
     <input type="button" value="SignUp"><br>
     <input type="checkbox"><br>
+    <input type="checkbox"><br>
+    <input type="radio"><br>
+    <input type="radio"><br>
+    <input type="radio"><br>
+    <input type="radio"><br>
+    <input type="radio"><br>
     <input type="radio"><br>
     <input type="radio" name="Gender">Male<br>
     <input type="radio" name="Gender">Female<br>
@@ -63,14 +74,14 @@
     <input type="tel"><br>
     <input type="range"><br>
     <input type="month"><br>
-    <input type="week"><br>
+    <input type="week" hidden><br>
     <input type="number" min="-10" max="10"><br>
     <input type="image"><br>
     <input type="hidden"><br>
     <input type="url"><br>
     <input type="color"><br>
     <input type="search"><br>
-    <input type="file"><br>
+    <input type="file"><br> -->
 
     <!--
                 button - creates a button with no default functionality
@@ -100,16 +111,101 @@
 
     <!-- Html Table Tag -->
 
+    <table>
+        <thead>
+            <tr>
+                <th>Person</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Chris</td>
+                <td>38</td>
+            </tr>
+            <tr>
+                <td>Dennis</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td>Sarah</td>
+                <td>29</td>
+            </tr>
+            <tr>
+                <td>Karen</td>
+                <td>47</td>
+            </tr>
+        </tbody>
+    </table>
+
 
 
 
     <!-- Colspan and Rowspan in Html Table -->
 
-
+    <table styel="">
+        <caption>A test table with Merged cells</caption>
+        <thead>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="2">Average</th>
+                <th rowspan="2">Red Eyes</th>
+            </tr>
+            <tr>
+                <th>height</th>
+                <th>weight</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Male</th>
+                <td>1.9</td>
+                <td>0.003</td>
+                <td>40%</td>
+            </tr>
+            <tr>
+                <th>Female</th>
+                <td>1.7</td>
+                <td>0.002</td>
+                <td>43%</td>
+            </tr>
+        </tbody>
+    </table>
 
 
     <!-- Colgroup in Html Table -->
 
+
+    <table>
+        <colgroup>
+            <col span="1" bgcolor="orange">
+            <col span="1" bgcolor="pink">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Person</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Chris</td>
+                <td>38</td>
+            </tr>
+            <tr>
+                <td>Dennis</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td>Sarah</td>
+                <td>29</td>
+            </tr>
+            <tr>
+                <td>Karen</td>
+                <td>47</td>
+            </tr>
+        </tbody>
+    </table>
 
     <script>
 
