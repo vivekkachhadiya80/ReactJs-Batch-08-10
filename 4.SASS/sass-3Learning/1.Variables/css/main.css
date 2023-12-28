@@ -1,7 +1,17 @@
-/* sass variables */
-/* sass @import method */
-.box-1 {
-  height: 100px;
-  width: 100px;
-  background-color: red;
+nav ul li a {
+  background-color: #ff4545;
+}
+
+nav {
+  background-color: orange;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 20px;
+}
+
+nav ul li {
+  margin: 0px 25px;
 }/*# sourceMappingURL=main.css.map */
