@@ -19,7 +19,7 @@
 
 //Multiple assignement
 
-// $list : ((main , red , 100px , 10px) , (para , purple , 200px , 20px) , (box , red , 100px  , 10px));
+// $list : ((main , 100px ,red  , 10px) , (para , purple , 200px , 20px) , (box , red , 100px  , 10px));
 
 // @each $name , $color , $size , $position in $list{
 //   .#{$name}{
@@ -27,4 +27,21 @@
 //     height: $size;
 //     left:$position;
 //   }
+// }
+
+
+// @each $a in main box box-1 box-2 box-3{
+//     .#{$a}{
+//         border:1px solid red;
+//     }
+// }
+
+// .box-1{
+//     border:1px solid red;
+//     &:hover{
+//         border:1px solid blue;
+//         &:hover{
+//             border:1px solid green;
+//         }
+//     }
 // }
