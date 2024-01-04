@@ -2,21 +2,26 @@
 
 // sass @for method
 
-@for $i from 1 through 100{
-  .list-#{$i}{
-    border:none;
-  }
-}
-
-@for $i from 1 through 3{
-  .list-#{$i}{
-    border:10px*$i;
-  }
-}
-
-@for $i from 1 through 3{
-  .list-#{$i}{
-    border:10px*$i;
+@for $i from 1 through 10{
+  .box-#{$i}{
+    border:1px solid $bg-1;
     height: 100px*$i;
+    width:$w-100;
   }
 }
+.maindiv{
+  display: flex;
+}
+
+// @for $i from 1 through 3{
+//   .list-#{$i}{
+//     border:10px*$i;
+//   }
+// }
+
+// @for $i from 1 through 3{
+//   .list-#{$i}{
+//     border:10px*$i;
+//     height: 100px*$i;
+//   }
+// }

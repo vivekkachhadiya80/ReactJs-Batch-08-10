@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ol , ul {
+    padding: 0;
+    list-style-type: none;
+}
+h1 , h2 ,h3 ,h4 ,h5 ,h6 ,p ,pre, blockquote{
+    margin: 0;
+}
+a , span{
+    display: inline-block;
+}
+img , video{
+    max-width: 100%;
+    height: auto;
+}
+
+/*  Header start */
+
+.container{
+    max-width: 1200px;
+    margin-inline:auto;
+    padding-inline: 20px;
+}
+
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.nav-img{
+    background-color: black;
+}
+
+.nav-menu-item{
+    display: flex;
+}
+
+.nav-item nav ul {
+    display: flex;
+}
+.nav-item nav ul li{
+    padding-inline: 30px;
+}
+.nav-item nav{
+    display: flex;
+    align-items: center;
+}
+.nav-menu-item .menu-icon{
+    display: flex;
+    flex-direction: column;
+}
+.menu-icon i{
+    line-height: 6px;
+}
+.navbar button{
+    display: none;
+}
+.your-class{
+    position: absolute;
+    z-index: -1 ;
+}
